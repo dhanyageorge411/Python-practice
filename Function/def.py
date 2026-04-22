@@ -8,7 +8,11 @@ def hello(to ="World"):
 
 name = input("What's your name: ")
 
-#calling the function 
+# Output using our own function
 
 hello(name)
+
+# without passing expected arguments 
+
+hello()
 
