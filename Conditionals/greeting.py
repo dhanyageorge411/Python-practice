@@ -1,6 +1,6 @@
 #input from user 
 
-check = input("Greeetings: ")
+check = input("Greeetings: ").strip()
 
 #check the input case in case-insensitively
 

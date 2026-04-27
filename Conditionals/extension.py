@@ -4,7 +4,7 @@ file = input("Name of the file: ")
 
 #To extract the file extension from input
 
-extension = file.split('.')[-1].rstrip()
+extension = file.split('.')[-1].strip().casefold()
 
 #condition to check the output 
 
